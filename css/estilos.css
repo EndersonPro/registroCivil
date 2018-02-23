@@ -279,3 +279,17 @@
 .d_ins_info_small_1 , .d_ins_info_small_2 {
 	text-align: center;
 }
+.respuestas_d_ins_info > div{
+	float: left;
+}
+.d_ins_info_input > input{
+	height: 40px;
+	padding: none;
+	float: left;
+}
+.input_1{
+	width: 273px;
+}
+.input_2 , .input_3 {
+	width: 137px;
+}
