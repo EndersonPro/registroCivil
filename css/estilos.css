@@ -1,0 +1,264 @@
+/* Reseto */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/* outline: 1px solid black; */
+	font-family: Helvetica;	
+}
+/* Estilos del contenedor principal de todo el formulario */
+.contenedor{
+	display: block;
+	width: 1100px;
+	max-width: 1100px;
+	margin: 0 auto;
+	/* background-color: #ECECEC; */
+}
+/* Estilos para los div contenedores de la parte del logo */
+.encabezado > div{
+	float:left;
+	width: 362px;
+	max-width: 362px;
+	padding-top: 5px;
+	height: 210px;
+}
+/* Estilos para el lado izquierdo y derecho de la cabeza del documento */
+.central_izq, .central_der{
+	position: relative;
+}
+.nuip, .indicativo {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
+.codigo{
+	position: absolute;
+	right: 50px;
+	bottom: 10px;
+	font-family: 'Times New Roman', Times, serif;
+}
+.nuip > div {
+	border: 2px solid black;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	height: 60px;
+	width: 320px;
+	box-shadow: 2px 2px  black;
+}
+.nuip > div > h4{
+	padding: 14.5px;
+	width: 90px;
+	border-right: 2px solid black;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+/* Cabezara central logo y nombre del documento */
+.rp_colombia{
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.logo{
+	max-width:20%; 
+}
+.central_cabecera{
+	text-align:center;
+}
+.central_cabecera h2{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.texto_grande{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 28px;
+	width: 100%;
+}
+
+/* Estilos para el primer contenedor */
+.content_general{
+	width: 100%;
+	margin-top: 10px;
+	/* height: 120px; */
+	border: 1px solid black;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	box-shadow: 2px 3px  black;
+	display: inline-block;
+}
+/* Estilos general para los input sencillos */
+.input_class{
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	bottom: 5px;
+}
+
+.titulo_general{
+	padding-left: 10px;
+	font-size: 15px;
+	border-bottom: 1px solid black;
+}
+.info_p{
+	height: 50px;
+	border-bottom: 1px solid black;
+}
+	.info_p > div {
+		height: 50px;
+		position: relative;
+		/* display: inline-block; */
+		float: left;
+	}
+
+.one{
+	width: 140px;
+	border-right: 1px solid black;
+}
+	.one > div{
+		position: absolute;
+		bottom: 5px;
+		left: 5px;
+	}
+		.one > div > h4 {
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 13px;
+		}
+	.one > input{
+		right: 5px;
+	}
+
+.two{
+	width: 265px;
+	border-right: 1px solid black;
+}
+	.two_1{
+		position: absolute;
+		bottom: 5px;
+		left: 12px;
+	}
+	.two_2{
+		position: absolute;
+		bottom: 5px;
+		left: 142px;
+	}
+		.two > div > h4 {
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 13px;
+		}
+	.input_two_1{
+		left: 70px;
+	}
+	.input_two_2{
+		right: 20px;
+	}
+	.input_two_3{
+		right: 43px;
+	}
+
+.three{
+	width: 150px;
+	border-right: 1px solid black;
+}
+	.three > div{
+		position: absolute;
+		bottom: 5px;
+		left: 25px;
+	}
+		.three > div > h4 {
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 13px;
+		}
+	.three > input{
+		right: 25px;
+	}
+
+.four{
+	width: 160px;
+	border-right: 1px solid black;
+}
+	.four > div{
+		position: absolute;
+		bottom: 5px;
+		left: 15px;
+	}
+		.four > div > h4 {
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 13px;
+		}
+	.four > input{
+		right: 15px;
+	}
+
+.five{
+	width: 210px;
+	border-right: 1px solid black;
+}
+	.five > div{
+		position: absolute;
+		bottom: 5px;
+		left: 12px;
+	}
+		.five > div > h4 {
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 13px;
+		}
+	.five > input{
+		right: 5px;
+	}
+
+.six{
+	width: 173px;
+}
+	.six_t{
+		position: absolute;
+		width: 80px;
+		bottom: 5px;
+		left: 10px;
+	}
+	.six_d {
+		position: absolute;
+		right: 0;
+		width: 90px;
+		height: 100%;
+		/* background-color: red; */
+	} 
+	.six_d > input {
+		float: left;
+		width: 30px;
+		height: 98%;
+	}
+.text_p > input {
+	width: 100%;
+	height: 40px;
+	border-bottom-right-radius: 10px;
+}
+.d_ins_info{
+	width: 100%;
+}
+.d_ins_info > div{
+	float: left;
+	width: 549px;
+	/* height: 20px; */
+}
+.d_ins_info > div > div{
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+.name_div{
+	border-right:1px solid black;
+}
+.name_div > input, .apellido_div > input{
+	width: 549px;
+	height: 40px; 
+}
+.text_center{
+	width: 100% !important; 
+	float: left;
+	border-bottom: 1px solid black;
+}
+.text_center > h5{
+	text-align: center;
+}
+.d_ins_info > input{
+	width: 100%;
+	height: 40px;
+}
