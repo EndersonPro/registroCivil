@@ -339,3 +339,22 @@ input{
 	height: 50px;
 	border-bottom-right-radius: 10px;
 }
+.blo3_izq, .blo3_der{
+	float: left;
+}
+.blo3_izq{
+	border-right: 1px solid black;
+}
+
+.blo3_izq div h5, .blo3_der div h5{
+	text-align: center;
+}
+.blo3_izq input{
+	width: 699px;
+	height: 40px;
+}
+.blo3_der input{
+	width: 398px;
+	height: 40px;
+	border-bottom-right-radius: 10px;
+}
