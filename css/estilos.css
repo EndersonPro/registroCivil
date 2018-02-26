@@ -16,7 +16,7 @@ input{
 
 /* Estilos del contenedor principal de todo el formulario */
 .contenedor{
-	outline: 1px solid black;
+	/* outline: 1px solid black; */
 	display: block;
 	width: 1100px;
 	max-width: 1100px;
@@ -113,7 +113,7 @@ input{
 
 .titulo_general{
 	padding-left: 10px;
-	font-size: 15px;
+	font-size: 17px;
 	border-bottom: 1px solid black;
 }
 .info_p{
@@ -354,6 +354,26 @@ input{
 	height: 40px;
 }
 .blo3_der input{
+	width: 398px;
+	height: 40px;
+	border-bottom-right-radius: 10px;
+}
+/* info familiares  */
+.info_b div{
+	float: left;
+}
+.info_b_izq{
+	width: 699px;
+	border-right: 1px solid black;
+}
+.info_b_izq input{
+	width: 699px;
+	height: 40px;
+}
+.info_b_der{
+	width: 398px;
+}
+.info_b_der input{
 	width: 398px;
 	height: 40px;
 	border-bottom-right-radius: 10px;
