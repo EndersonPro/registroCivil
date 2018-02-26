@@ -329,3 +329,13 @@ input{
 	width: 37.5px;
 	float: left;
 }
+.centro{
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+.centro > input {
+	width: 100%;
+	height: 50px;
+	border-bottom-right-radius: 10px;
+}
